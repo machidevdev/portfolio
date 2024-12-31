@@ -62,7 +62,7 @@ export default function RightColumn() {
 
   return (
     <Column className="h-full overflow-hidden border-l-0">
-      <div className="h-full overflow-y-auto pr-4">
+      <div className="h-full overflow-y-auto pr-4 md:pb-0 pb-20">
         <article
           className="prose prose-invert max-w-none"
           dangerouslySetInnerHTML={{ __html: content || '' }}
