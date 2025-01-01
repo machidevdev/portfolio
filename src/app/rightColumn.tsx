@@ -16,14 +16,14 @@ export default function RightColumn() {
       if (!selectedItem) return;
 
       try {
-        console.log('Selected Item:', selectedItem);
         const path = selectedItem.toLowerCase();
-        console.log('Lowercased path:', path);
         let mdPath;
 
         // Handle different path structures
         if (path.startsWith('projects/')) {
           mdPath = path.endsWith('.md') ? path : `${path}.md`;
+        } else if (path.toLowerCase() === 'readme.md') {
+          mdPath = 'README.md'; // Use uppercase for README.md
         } else {
           mdPath = path;
         }
@@ -42,8 +42,6 @@ export default function RightColumn() {
         }
 
         const markdown = await response.text();
-        console.log('Loaded markdown:', markdown.slice(0, 100));
-
         const processedContent = await remark().use(html).process(markdown);
         setContent(processedContent.toString());
       } catch (error) {
