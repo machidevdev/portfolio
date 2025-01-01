@@ -10,13 +10,38 @@ import { selectedItemAtom, virtualPathAtom } from '@/lib/atoms';
 const projects = [
   {
     title: 'CHKN',
-    description: 'Web3 NFT marketplace',
+    description: 'Track flows of token liquidity on Solana.',
     path: 'chkn',
   },
   {
     title: 'Isekai',
-    description: 'Anime-themed NFT collection',
+    description: 'Yield. Liquidity. Optimized.',
     path: 'isekai',
+  },
+  {
+    title: 'Shishi',
+    description: 'Mint page for Shishi.',
+    path: 'shishi',
+  },
+  {
+    title: 'Niqady',
+    description: 'Showcase website for Niqady.',
+    path: 'niqady',
+  },
+  {
+    title: 'Portfolio',
+    description: 'My portfolio website.',
+    path: 'portfolio',
+  },
+  {
+    title: 'TG Logger',
+    description: 'A Typescript template to interact with the telegram api.',
+    path: 'tg-logger',
+  },
+  {
+    title: 'FE Starter',
+    description: 'A template to kickstart a web3 EVM frontend project.',
+    path: 'fe-starter',
   },
 ];
 

@@ -27,7 +27,9 @@ export default function ExpCard({
     >
       <CardHeader>
         <CardTitle className="text-sm">{title}</CardTitle>
-        <CardDescription className="text-xs">{description}</CardDescription>
+        <CardDescription className={selected ? 'text-foreground' : ''}>
+          {description}
+        </CardDescription>
       </CardHeader>
     </Card>
   );

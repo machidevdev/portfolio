@@ -12,7 +12,7 @@ Looking for jobs as mid / senior frontend developer or junior/mid backend develo
 - Backend development: Node.js, Typescript, Prisma, PostgreSQL, MongoDB, Redis, Express, AWS lambda and KMS, rabbitMQ
 - Web3 development: good knowledge of EVM smart contracts, Wagmi, ethers. Now learning Solana, web3.js and anchor
 - Bot development: Telegraf, gramjs, node-telegram-bot-api
-  Design: Figma, Blender, basics of Photoshop
+- Design: Figma, Blender, Photoshop basics
 - Misc: Tendermint node management, testing frameworks, smart contract development and deployment(both solana and evm),
 
 ## Contact

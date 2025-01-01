@@ -17,14 +17,13 @@ Chase down bundlers, ruggers, and cabals who outrun ordinary bundle bots and hol
 
 ## Live Demo
 
-https://chkn.computer
+[https://chkn.computer](https://chkn.computer)
 
-https://chkn-fe.vercel.app(wip)
+[https://chkn-fe.vercel.app](https://chkn-fe.vercel.app) (wip)
 
 ## Work
 
 - Managed all the frontend architecture and development, except design development
-- Managed the backend development and architecture for the subscription service and the telegram/wallet linking service
+- Managed the backend architecture and development for the subscription service, telegram - wallet linking service and the virtual credit system.
 - Managed smart contract development for the subscription service
-- Smart contract feedback for frontend optimizations
 - Currently working on 2D/3D visualizations and ai agent implementation

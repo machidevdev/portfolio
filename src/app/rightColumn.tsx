@@ -64,7 +64,20 @@ export default function RightColumn() {
     <Column className="h-full overflow-hidden border-l-0">
       <div className="h-full overflow-y-auto pr-4 md:pb-0 pb-20">
         <article
-          className="prose prose-invert max-w-none"
+          className="
+            prose-sm prose-invert max-w-none
+            prose-h1:text-2xl prose-h1:font-bold prose-h1:mb-4
+            prose-h2:text-xl prose-h2:font-semibold prose-h2:mt-8 prose-h2:mb-4
+            prose-p:text-card-foreground prose-p:leading-relaxed
+            prose-li:text-card-foreground
+            prose-a:text-secondary-foreground prose-a:no-underline hover:prose-a:underline
+            prose-ul:my-4 prose-li:my-2
+            prose-code:text-secondary-foreground prose-code:bg-muted/50 prose-code:px-1 prose-code:rounded-md
+            [&_ul]:list-none [&_ul]:pl-0
+            [&_li]:relative [&_li]:pl-6
+            [&_li]:before:content-[''] [&_li]:before:absolute [&_li]:before:left-0 [&_li]:before:top-[0.6em]
+            [&_li]:before:h-1.5 [&_li]:before:w-1.5 [&_li]:before:rounded-full [&_li]:before:bg-secondary-foreground
+          "
           dangerouslySetInnerHTML={{ __html: content || '' }}
         />
       </div>
