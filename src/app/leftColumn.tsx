@@ -19,6 +19,12 @@ const projects = [
     path: 'isekai',
   },
   {
+    title: 'Xultra',
+    description:
+      'Track and analyze daos.fun party round participants, and keep them accountable.',
+    path: 'xultra',
+  },
+  {
     title: 'Shishi',
     description: 'Mint page for Shishi.',
     path: 'shishi',
