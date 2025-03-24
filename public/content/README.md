@@ -2,7 +2,7 @@
 
 Software developer, Web3 enthusiast, cat lover.
 
-Strong experience with fronend development(2+ years) and EVM integration. Currently studying backend development in Go, system design, game theory and chinese. Currently building on chain mini games.
+Strong experience with frontend development(2+ years) and EVM integration. Currently studying backend development in Go, system design, game theory and chinese. Currently building on chain mini games.
 
 Looking for jobs as mid / senior frontend developer or junior/mid backend developer.
 
