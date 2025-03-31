@@ -1,5 +1,7 @@
 # About
 
+Site is currently under construction.
+
 Software developer, Web3 enthusiast, cat lover.
 
 Strong experience with frontend development(2+ years) and EVM integration. Currently studying backend development in Go, system design, game theory and chinese. Currently building on chain mini games.
